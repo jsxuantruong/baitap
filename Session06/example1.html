@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .float-left {
+      float: left;
+      height: 800px;
+      margin-right: 5%;
+    }
+    .contact {
+      margin: 3px;
+    }
+    .under {
+      width: 45px;
+      height: 3px;
+      background-color: #efc682;
+    }
+    .container {
+      margin: 0 auto;
+      margin-left: 25%;
+    }
+    #name {
+      width: 600px;
+      height: 20px;
+    }
+    #mail {
+      width: 600px;
+      height: 20px;
+      margin-top: 20px;
+    }
+    #sub {
+      width: 600px;
+      height: 20px;
+      margin-top: 20px;
+    }
+    #tera {
+      width: 600px;
+      height: 60px;
+      margin-top: 20px;
+    }
+    button {
+      margin-top: 20px;
+      height: 30px;
+      width: 150px;
+      background-color: #0cb9b7;
+      border: #0cb9b7;
+    }
+  </style>
+  <body>
+    <div>
+      <div class="container">
+        <div class="contact">
+          <h2>Contact US</h2>
+          <div class="under"></div>
+        </div>
+        <br />
+        <div class="float-left">
+          <h3>Contact Info</h3>
+          <br />
+          <p>
+            <i class="fa-solid fa-location-dot"></i> &nbsp;321 Awesome Street
+            <span><br /></span> New York,NY 17022
+          </p>
+          <br />
+          <p>
+            <i class="fa-solid fa-envelope"></i>&nbsp;
+            Info@companyname@yahho.com
+          </p>
+          <br />
+          <p><i class="fa-solid fa-phone"></i> &nbsp;+84 815 91 2222</p>
+        </div>
+        <div class="float-right">
+          <h3>Having Any Query! Or Book an appointment</h3>
+          <br />
+          <input type="text" name="" id="name" placeholder="Your name" /><br />
+          <input type="text" name="" id="mail" placeholder="Your email" /><br />
+          <input type="text" name="" id="sub" placeholder="Subject" /><br />
+          <textarea
+            name=""
+            id="tera"
+            cols="30"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+          <br />
+          <button>Send Message</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
